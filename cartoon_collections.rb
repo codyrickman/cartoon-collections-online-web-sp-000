@@ -17,7 +17,7 @@ def find_the_cheese (cheese_array)# code an argument here
   cheese_array.each do |string|
     if cheese_types.include?(string) == true
       return string
-    elsif
+    elsif cheese_types.include?(string) == false
       return nil
     end
   end
