@@ -18,8 +18,8 @@ def find_the_cheese (cheese_array)# code an argument here
     if cheese_types.include?(string) == true
       return string
     end
-    if cheese_types.include?(string) == false
-      return nill
+  elsif cheese_types.include?(string) == false
+      return nil
     end
   end
 
