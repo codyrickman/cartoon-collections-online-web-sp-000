@@ -19,7 +19,7 @@ def find_the_cheese (cheese_array)# code an argument here
       return string
     end
     if cheese_types.include?(string) == false
-      return string
+      return nill
     end
   end
 
