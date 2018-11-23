@@ -13,7 +13,7 @@ end
 
 def find_the_cheese (cheese_array)# code an argument here
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese_types = ["cheddar", "gouda", "camembert"];
   cheese_array.each do |string|
     if cheese_types.include?(string) == true
       return string
